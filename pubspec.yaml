@@ -1,0 +1,57 @@
+name: fluflu
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^3.1.2
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  flutter_custom_clippers: ^2.1.0  # Asegúrate de usar la última versión disponible
+  flutter_image_slideshow: ^0.1.0
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.10.0    # Reemplaza con la versión más reciente
+  firebase_auth: ^4.5.0     # Reemplaza con la versión más reciente
+  image_picker: ^1.1.2
+  sn_progress_dialog: ^1.1.4
+  fluttertoast: ^8.0.9  # Asegúrate de agregar la versión más reciente
+  google_maps_flutter: ^2.9.0
+  google_fonts: ^6.2.1
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/img/
+    - assets/json/
+
+  fonts:
+    - family: NimbusSans
+      fonts:
+        - asset: assets/fonts/NimbusSans/NimbusSanL-Reg.otf
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+

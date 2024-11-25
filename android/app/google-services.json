@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "650489533025",
+    "project_id": "fluflu-db001",
+    "storage_bucket": "fluflu-db001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650489533025:android:7f73ca2fc43ccf13521020",
+        "android_client_info": {
+          "package_name": "com.optic.fluflu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8rkkAt7Mq_szw7BP2JtgfC3nDlxhEBqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
